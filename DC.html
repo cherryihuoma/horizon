@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="DC.json">
+  <meta name="theme_color" content="#000000">
+
+  <title>PWA Horizon</title>
+  <link rel="stylesheet" href="DC.css">
+</head>
+<body>
+  <div id="splash">
+    <h1 class="logo">Horizon</h1>
+  </div>
+
+  <div class="mycontainer">
+    <h2>To Do List</h2>
+    <div class="section1">
+        <input type="text" id="myTask" placeholder="Task">,<br>
+        <input type="datetime-local" id="time"><br>
+        <button id="addBtn">Add</button>        
+    </div>
+    <ul id="taskList"></ul>
+    <button id="clearBtn">Clear All</button>
+  </div> 
+
+  <script src="DC.js"></script>
+</body>
+</html>
